@@ -1,0 +1,202 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    margin-top: 20px;
+    padding: 40px 0px 15px ;
+    background-color: black;
+    width: 100%;
+    color: azure;
+}
+header h1{
+    margin-top: -40px;
+    padding: 20px;
+    font-family: cursive;
+}
+.navlink a{
+    padding: 10px 20px ;
+color: aliceblue;
+text-decoration: none;
+}
+.navlink a:hover{
+    background-color: azure;
+    color: #000;
+    transition: 1s;
+    border-radius: 20px;
+}
+.navlink .right a{
+    float: right;
+    margin-top: -28px;
+}
+header span{
+    color: aquamarine;
+    margin-left: -14px;
+}
+/*         dropdown-main design            */
+
+.dropdown-main{
+   background-color: beige;
+   width: 100%;
+   padding: 20px;
+   display: inline-block;
+   position: relative;
+    
+}
+.dropdown-main a{
+    color: #555555;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+/* dropdown-sub */
+.dropdown-sub{
+    display: none;
+    position: absolute;
+    padding: 20px;
+    height: auto;
+    background-color: beige;
+}
+.dropdown-main .dropdown-one:hover .dropdown-sub{
+    display:block;
+    padding: 20px;
+    
+}
+.dropdown-sub a:hover{
+   background-color: #686767;
+   color: beige;
+   padding: 10px 25px;
+}
+/* search-bar */
+.search-bar{
+    margin: 10px 0 10px 10px;
+    
+    width: 80%;
+    padding: 10px;
+}
+.search-bar:focus{
+    background-color: rgb(177, 177, 177);
+    transition: 1s;
+}
+.btn-search{
+    width: 15%;
+    padding: 10px;
+    margin-right: -10px;
+    background-color: aquamarine;
+    
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: 20px;
+}
+.btn-search:hover{
+    background-color: rgb(122, 122, 255);
+    transition: 2s;
+}
+/* content */
+.content{
+    margin: 20px;
+}
+.content h4{
+    color: #686767;
+    padding-bottom: 20px;
+}
+.content hr{
+    color: #b4b4b4;
+
+}
+.content h3{
+    padding: 20px 0px;
+    font-size: 15px;
+    color: #353535;
+}
+.content .side{
+    float: right;
+    margin-top: -60px;
+}
+/* 2nd-content */
+.content2{
+    margin: 0px 20px;
+}
+.content2 table td{
+    float: left;
+    border-color: #555555;
+    padding: 10px;
+    border-style: solid;
+    
+}
+.content2 table td:hover{
+    background-color: #686767;
+    color: aliceblue;
+    transition: 1s;
+}
+.content2 .active{
+    background-color: #686767;
+    color: aliceblue;
+}
+.content2 span{
+    padding: 10px;
+}
+/* content3 */
+.content3{
+    margin-top: 20px;
+}
+.content3 select{
+    padding: 2px;
+    background-color: aliceblue;
+    border-style: solid;
+}
+/* cards */
+.cards-1{
+ height: auto;
+ width: 20%;
+ margin: 2%;
+ border-radius: 20px 0px;
+ box-shadow: #000 3px 3px 8px;
+ float: left;
+}
+.cards-1 img{
+    margin: 10px 30px;
+}
+.cards-1 h4,p,h2,.star{
+    margin: 10px 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    word-spacing: 2px;
+}
+.cards-1 p,i{
+    color: #555555;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.checked {
+    color: orange;
+}
+.cards-1 button{
+    float: right;
+    margin: -50px 20px 10px ;
+    padding: 10px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: rgb(145, 175, 175);
+
+}
+.cards-1 button:hover{
+    background-color: rgb(8, 245, 245);
+    transition: 2s;
+}
+.cards-1 .fa-folder-open{
+    float: right;
+    margin: -45px 125px ;
+    font-size: 30px;
+    color: rgb(108, 108, 247);
+}
+/*  footer */
+.footer{
+    background-color: #201818;
+    color: aliceblue;
+    border-radius: 20px 0px ;
+}
+.footer-content{
+    margin: 20px 20px 0px 20px;
+    padding: 10px;
+}
